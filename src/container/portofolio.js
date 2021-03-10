@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import pic1 from './../assets/picture1.png';
+import pic2 from './../assets/picture2.png';
+import pic3 from './../assets/picture3.png';
+import pic4 from './../assets/picture4.png';
 
 class Portofolio extends Component{
     render(){
@@ -16,8 +20,34 @@ class Portofolio extends Component{
                 <a href="/#" className="py-1.5 px-5 mx-3 text-gray-700 rounded-lg transition transition duration-500 ease-in-out hover:bg-yellow-300 hover:text-white">Mobile</a>
                 <a href="/#" className="py-1.5 px-5 mx-3 text-gray-700 rounded-lg transition transition duration-500 ease-in-out hover:bg-yellow-300 hover:text-white">Desktop</a> 
             </div>
-            <div className="h-full bg-gray-50 p-5 mt-3 rounded-lg">
-
+            <div className="h-full bg-gray-100 p-5 mt-3 rounded-lg">
+                <div className="grid grid-cols-2 xl:grid-cols-3 gap-6">
+                    <div className="group relative">
+                        <img src={pic1} className="rounded shadow-lg" alt=""/>
+                        <div class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition duration-400 ease-in-out justify-evenly"> 
+                            <div className="hover:scale-110 text-white opacity-0 transform traslate-duration-350 translate-y-3 group-hover:opacity-100 transition duration-500 ease-in-out">
+                                <a href="/#">
+                                    <div className="text-center text-xl">Nassert-Beet</div>
+                                </a>
+                                <div className="text-md">Web for Nassert beet Indonesia</div>
+                            </div> 
+                            {/* <button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                                    <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                                </svg>
+                            </button> */}
+                        </div>
+                    </div> 
+                    <div>
+                        <img src={pic2} className="rounded shadow-lg" alt=""/>
+                    </div> 
+                    <div>
+                        <img src={pic3} className="rounded shadow-lg" alt=""/>
+                    </div> 
+                    <div>
+                        <img src={pic4} className="rounded shadow-lg" alt=""/>
+                    </div> 
+                </div>
             </div>
             </>
         )

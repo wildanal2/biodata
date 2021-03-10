@@ -9,7 +9,7 @@ class Profile extends Component{
                     <div className="flex-grow  h-30 mx-8 relative ">
                         <h1 className="text-2xl font-sans font-bold mt-16">Hai, saya Wildan Almubarok</h1>
                         <h1 className="text-2xl font-sans mt-1">Web Developer</h1>
-                        <h2 className="mt-1">I am a graduate of S1 Information Technology with a cumlaude predicate, namely a GPA of 3.78. Currently interested in focusing on data science with a good mathematical background for several years with several Olympic awards and using predictive modeling to solve several problems in the company</h2>
+                        <h2 className="mt-1 max-w-xl">I am a graduate of S1 Information Technology with a cumlaude predicate, namely a GPA of 3.78. Currently interested in focusing on data science with a good mathematical background for several years with several Olympic awards and using predictive modeling to solve several problems in the company</h2>
                         <a href="/#" className="px-4 py-1 absolute bottom-0 left-0 bg-gray-700 rounded text-gray-50 transition duration-300 hover:bg-gray-900 hover:text-gray-200">Download CV</a>
                     </div>
                     </div>
